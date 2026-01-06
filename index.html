@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>Spotify Clone</title>
+    <link
+      href="spotify_icons/spotify_white_icon_png.png"
+      rel="icon"
+      type="image/png"
+    />
+  </head>
+
+  <body>
+    <header class="spotify-header">
+      <div class="header-left-container">
+        <span class="spotify-logo-white">
+          <img
+            class="spotify-logo"
+            src="spotify_icons/spotify_white_icon_png.png"
+            alt="Spotify White Logo"
+          />
+        </span>
+      </div>
+      <div class="header-middle-container">
+        <button class="header-home-button">
+          <img
+            class="spotify-home-icon"
+            src="spotify_icons/spotify_home_icon.JPG"
+            alt="Home Option"
+          />
+        </button>
+        <div class="spotify-search-bar">
+          <button class="spotify-magnifying-glass-button">
+            <img
+              class="spotify-magnifying-glass-icon"
+              src="spotify_icons/magnifying_glass_png.png"
+              alt="Search Bar"
+            />
+          </button>
+          <input
+            class="header-search-bar"
+            type="text"
+            id="search-bar"
+            name="search-bar"
+            placeholder="What do you want to play?"
+          />
+          <button class="spotify-browse-button">
+            <img
+              class="spotify-browse-icon"
+              src="spotify_icons/spotify_browse_icon.jpg"
+              alt="Browse"
+            />
+          </button>
+        </div>
+      </div>
+      <div class="header-right-container">
+        <button class="header-explore-premium">Explore Premium</button>
+        <div class="header-install-app">
+          <img
+            class="spotify-download-icon"
+            src="spotify_icons/spotify_download_icon_png.png"
+          />
+          <p class="header-install-app">Install App</p>
+        </div>
+        <img
+          class="spotify-bell-icon"
+          src="spotify_icons/spotify_bell_icon.JPG"
+          alt="Notifications"
+        />
+        <img
+          class="spotify-friends-icon"
+          src="spotify_icons/spotify_friends_icon_png.JPG"
+          alt="Friends Activity"
+        />
+        <img
+          class="spotify-profile-picture"
+          src="spotify_icons/spotify_profile_picture.jpg"
+          alt="Spotify Profile"
+        />
+      </div>
+    </header>
+
+    <main class="spotify-main">
+      <div class="spotify-left-container">
+        <div class="left-header">
+          <div class="left-header-top">
+            <div class="left-your-library-container">
+              <img
+                class="left-your-library-icon"
+                src="spotify_left_container_icons/spotify_library_icon.JPG"
+                alt="Your Library"
+              />
+              <p class="left-your-library">Your Library</p>
+            </div>
+            <div class="left-create-expand">
+              <button class="left-create-button">
+                <img
+                  class="left-plus-icon"
+                  src="spotify_left_container_icons/spotify_plus_icon.JPG"
+                  alt="Create"
+                />
+                Create
+              </button>
+              <button class="left-expand">
+                <img
+                  class="left-expand-icon"
+                  src="spotify_left_container_icons/spotify_expand_icon.JPG"
+                  alt="Expand"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="left-header-middle">
+            <button class="left-playlist">Playlists</button>
+            <button class="left-artists">Artists</button>
+            <button class="left-albums">Albums</button>
+            <button class="left-podcasts-shows">Podcasts & Shows</button>
+          </div>
+          <div class="left-header-bottom">
+            <button class="left-search">
+              <img
+                class="left-search-icon"
+                src="spotify_left_container_icons/spotify_search_icon.JPG"
+                alt="Search"
+              />
+            </button>
+            <button class="left-recents">
+              Recents
+              <img
+                class="left-recents-icon"
+                src="spotify_left_container_icons/spotify_recents_icon.JPG"
+                alt="Recents"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="left-container-main">
+          <div class="left-liked-songs left-playlist-container">
+            <span class="liked-songs-span left-image-span">
+              <img
+                class="liked-songs-img left-image image-type-1"
+                src="spotify-left-container-library/liked-songs.JPG"
+                alt="Liked Songs"
+              />
+            </span>
+            <div class="left-liked-songs-info left-playlist-info">
+              <p class="left-liked-songs-title left-playlist-title">
+                Liked Songs
+              </p>
+              <div
+                class="left-liked-songs-bottom-info left-playlist-bottom-info"
+              >
+                <img
+                  class="left-liked-songs-green-pined"
+                  src="spotify_left_container_icons/green-pined.JPG"
+                  alt="Pined Playlist"
+                />
+                <p class="left-liked-songs-playlist">
+                  Playlist &#183; 121 songs
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="left-orgavsm left-playlist-container">
+            <span class="left-image-span">
+              <img
+                class="orgavsm-img left-image image-type-2"
+                src="spotify-left-container-library/Orgavsm.JPG"
+                alt="Orgavsm"
+              />
+            </span>
+            <div class="left-playlist-info">
+              <p class="left-playlist-title">ORGAVSM</p>
+              <p class="left-playlist-bottom-info">Artist</p>
+            </div>
+          </div>
+          <div class="left-epic-anime left-playlist-container">
+            <span class="left-image-span">
+              <img
+                class="anime-img left-image image-type-1"
+                src="spotify-left-container-library/Most_Epic_Anime_OST.JPG"
+                alt="Most Epic Anime OST"
+              />
+            </span>
+            <div class="left-playlist-info">
+              <p class="left-playlist-title">Most Epic Anime OST</p>
+              <p class="left-playlist-bottom-info">Playlist &#183; Duro tan</p>
+            </div>
+          </div>
+          <div class="left-twice left-playlist-container">
+            <span class="left-image-span">
+              <img
+                class="twice-img left-image image-type-2"
+                src="spotify-left-container-library/Twice.JPG"
+                alt="Twice"
+              />
+            </span>
+            <div class="left-playlist-info">
+              <p class="left-playlist-title">TWICE</p>
+              <p class="left-playlist-bottom-info">Artist</p>
+            </div>
+          </div>
+          <div class="left-ultimate-rock left-playlist-container">
+            <span class="left-image-span">
+              <img
+                class="ultimate-rock-img left-image image-type-1"
+                src="spotify-left-container-library/Ultimate_Rock_Gaming.JPG"
+                alt="Ultimate Rock Gaming"
+              />
+            </span>
+            <div class="left-playlist-info">
+              <p class="left-playlist-title">Ultimate Rock Gaming</p>
+              <p class="left-playlist-bottom-info">Playlist &#183; Spotify</p>
+            </div>
+          </div>
+          <div class="left-house-music left-playlist-container">
+            <span class="left-image-span">
+              <img
+                class="house-music-img left-image image-type-1"
+                src="spotify-left-container-library/House_Music_HD_Playlist.JPG"
+                alt="House Music HD Playlist"
+              />
+            </span>
+            <div class="left-playlist-info">
+              <p class="left-playlist-title">HouseMusicHD Playlist</p>
+              <p class="left-playlist-bottom-info">
+                Playlist &#183; hdfamilyontheplaylist
+              </p>
+            </div>
+          </div>
+          <div class="left-jony left-playlist-container">
+            <span class="left-image-span">
+              <img
+                class="jony-img left-image image-type-2"
+                src="spotify-left-container-library/JONY.JPG"
+                alt="JONY Playlist"
+              />
+            </span>
+            <div class="left-playlist-info">
+              <p class="left-playlist-title">JONY</p>
+              <p class="left-playlist-bottom-info">Artist</p>
+            </div>
+          </div>
+          <div class="left-alan-walker left-playlist-container">
+            <span class="left-image-span">
+              <img
+                class="alan-walker-img left-image image-type-2"
+                src="spotify-left-container-library/Alan_Walker.JPG"
+                alt="Alan Walker Playlist"
+              />
+            </span>
+            <div class="left-playlist-info">
+              <p class="left-playlist-title">Alan Walker</p>
+              <p class="left-playlist-bottom-info">Artist</p>
+            </div>
+          </div>
+          <div class="left-krisu left-playlist-container">
+            <span class="left-image-span">
+              <img
+                class="krisu-img left-image image-type-2"
+                src="spotify-left-container-library/Krisu.JPG"
+                alt="Krisu Playlist"
+              />
+            </span>
+            <div class="left-playlist-info">
+              <p class="left-playlist-title">Krisu</p>
+              <p class="left-playlist-bottom-info">Artist</p>
+            </div>
+          </div>
+          <div class="left-why-dont-we left-playlist-container">
+            <span class="left-image-span">
+              <img
+                class="why-dont-we-img left-image image-type-2"
+                src="spotify-left-container-library/Why_Dont_We.JPG"
+                alt="Why Don't We Playlist"
+              />
+            </span>
+            <div class="left-playlist-info">
+              <p class="left-playlist-title">Why Don't We</p>
+              <p class="left-playlist-bottom-info">Artist</p>
+            </div>
+          </div>
+          <div class="left-bts left-playlist-container">
+            <span class="left-image-span">
+              <img
+                class="bts-img left-image image-type-2"
+                src="spotify-left-container-library/BTS.JPG"
+                alt="BTS Playlist"
+              />
+            </span>
+            <div class="left-playlist-info">
+              <p class="left-playlist-title">BTS</p>
+              <p class="left-playlist-bottom-info">Artist</p>
+            </div>
+          </div>
+          <div class="left-nsync left-playlist-container">
+            <span class="left-image-span">
+              <img
+                class="nsync-img left-image image-type-2"
+                src="spotify-left-container-library/NSYNC.JPG"
+                alt="NSYNC Playlist"
+              />
+            </span>
+            <div class="left-playlist-info">
+              <p class="left-playlist-title">*NSYNC</p>
+              <p class="left-playlist-bottom-info">Artist</p>
+            </div>
+          </div>
+          <div class="left-r&b-mix left-playlist-container">
+            <span class="left-image-span">
+              <img
+                class="r&b-img left-image image-type-1"
+                src="spotify-left-container-library/R&B_Mix.JPG"
+                alt="R&B Playlist"
+              />
+            </span>
+            <div class="left-playlist-info">
+              <p class="left-playlist-title">R&B Mix</p>
+              <p class="left-playlist-bottom-info">Playlist &#183; Spotify</p>
+            </div>
+          </div>
+          <div class="left-radio-emotion left-playlist-container">
+            <span class="left-image-span">
+              <img
+                class="radio-emotion-img left-image image-type-1"
+                src="spotify-left-container-library/Radio_Emotion.JPG"
+                alt="Radio Emotion+ Playlist"
+              />
+            </span>
+            <div class="left-playlist-info">
+              <p class="left-playlist-title">Radio EMOTION +</p>
+              <p class="left-playlist-bottom-info">
+                Playlist &#183; Kuba Strzelczyk
+              </p>
+            </div>
+          </div>
+          <div class="left-brian-mcknight left-playlist-container">
+            <span class="left-image-span">
+              <img
+                class="brian-mcknight-img left-image image-type-2"
+                src="spotify-left-container-library/Brian_McKnight.JPG"
+                alt="Brian McKnight Playlist"
+              />
+            </span>
+            <div class="left-playlist-info">
+              <p class="left-playlist-title">Brian McKnight</p>
+              <p class="left-playlist-bottom-info">Artist</p>
+            </div>
+          </div>
+          <div class="left-gaming-playlist left-playlist-container">
+            <span class="left-image-span">
+              <img
+                class="gaming-playlist-img left-image image-type-1"
+                src="spotify-left-container-library/Gaming_Playlist_2025.JPG"
+                alt="Gaming Playlist 2025"
+              />
+            </span>
+            <div class="left-playlist-info">
+              <p class="left-playlist-title">Gaming Playlist 2025 👾</p>
+              <p class="left-playlist-bottom-info">Playlist &#183; Soave</p>
+            </div>
+          </div>
+          <div class="left-panic-at-the-disco left-playlist-container">
+            <span class="left-image-span">
+              <img
+                class="panic-at-the-disco-img left-image image-type-2"
+                src="spotify-left-container-library/Panic!_At_The_Disco.JPG"
+                alt="Panic At The Disco Playlist"
+              />
+            </span>
+            <div class="left-playlist-info">
+              <p class="left-playlist-title">Panic! At The Disco</p>
+              <p class="left-playlist-bottom-info">Artist</p>
+            </div>
+          </div>
+          <div class="left-nickelback left-playlist-container">
+            <span class="left-image-span">
+              <img
+                class="nickelback-img left-image image-type-2"
+                src="spotify-left-container-library/Nickelback.JPG"
+                alt="Nickelback Playlist"
+              />
+            </span>
+            <div class="left-playlist-info">
+              <p class="left-playlist-title">Nickelback</p>
+              <p class="left-playlist-bottom-info">Artist</p>
+            </div>
+          </div>
+          <div class="left-v left-playlist-container">
+            <span class="left-image-span">
+              <img
+                class="v-img left-image image-type-2"
+                src="spotify-left-container-library/V.JPG"
+                alt="V Playlist"
+              />
+            </span>
+            <div class="left-playlist-info">
+              <p class="left-playlist-title">V</p>
+              <p class="left-playlist-bottom-info">Artist</p>
+            </div>
+          </div>
+          <div class="left-moody-mix left-playlist-container">
+            <span class="left-image-span">
+              <img
+                class="moody-mix-img left-image image-type-1"
+                src="spotify-left-container-library/Moody_Mix.JPG"
+                alt="Moody Mix Playlist"
+              />
+            </span>
+            <div class="left-playlist-info">
+              <p class="left-playlist-title">Moody Mix</p>
+              <p class="left-playlist-bottom-info">Playlist &#183; Spotify</p>
+            </div>
+          </div>
+          <div class="left-lofi-vibes-cafe left-playlist-container">
+            <span class="left-image-span">
+              <img
+                class="lofi-vibes-cafe-img left-image image-type-1"
+                src="spotify-left-container-library/Lofi_Vibes_Cafe.JPG"
+                alt="Lofi Vibes Cafe Playlist"
+              />
+            </span>
+            <div class="left-playlist-info">
+              <p class="left-playlist-title">Lofi Vibes Café</p>
+              <p class="left-playlist-bottom-info">
+                Podcast &#183; Marcus and Jared Richardson
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="spotify-middle-container">
+        <header class="middle-container-header">
+          <div class="middle-container-header-top">
+            <button class="middle-all-button">All</button>
+            <button class="middle-music-button">Music</button>
+            <button class="middle-podcasts-button">Podcasts</button>
+          </div>
+          <div class="middle-container-header-bottom">
+            <div class="middle-small-containers">
+              <img
+                class="middle-small-images"
+                src="spotify_middle_container_images/Beautiful_Life_Korean_Song.JPG"
+                alt="Beautiful Life Korean Song"
+              />
+              <div class="middle-small-containers-info">
+                <p class="middle-small-containers-title">
+                  Beautiful Life Korean Song
+                </p>
+              </div>
+            </div>
+            <div class="middle-small-containers">
+              <img
+                class="middle-small-images"
+                src="spotify_middle_container_images/EUROBEAT.JPG"
+                alt="EUROBEAT"
+              />
+              <div class="middle-small-containers-info">
+                <p class="middle-small-containers-title">EUROBEAT 🔥</p>
+              </div>
+            </div>
+            <div class="middle-small-containers">
+              <img
+                class="middle-small-images"
+                src="spotify_middle_container_images/Korean_Pop_Mix.JPG"
+                alt="Korean Pop Mix"
+              />
+              <div class="middle-small-containers-info">
+                <p class="middle-small-containers-title">Korean Pop Mix</p>
+              </div>
+            </div>
+            <div class="middle-small-containers">
+              <img
+                class="middle-small-images"
+                src="spotify_middle_container_images/Lonely_Sad_Mix.JPG"
+                alt="Lonely Sad Mix"
+              />
+              <div class="middle-small-containers-info">
+                <p class="middle-small-containers-title">Lonely Sad Mix</p>
+              </div>
+            </div>
+            <div class="middle-small-containers">
+              <img
+                class="middle-small-images"
+                src="spotify_middle_container_images/ORGAVSM.JPG"
+                alt="ORGAVSM"
+              />
+              <div class="middle-small-containers-info">
+                <p class="middle-small-containers-title">ORGAVSM</p>
+              </div>
+            </div>
+            <div class="middle-small-containers">
+              <img
+                class="middle-small-images"
+                src="spotify_middle_container_images/Twice.JPG"
+                alt="Twice"
+              />
+              <div class="middle-small-containers-info">
+                <p class="middle-small-containers-title">Twice</p>
+              </div>
+            </div>
+            <div class="middle-small-containers">
+              <img
+                class="middle-small-images"
+                src="spotify_middle_container_images/Bruno_Mars.JPG"
+                alt="Bruno Mars"
+              />
+              <div class="middle-small-containers-info">
+                <p class="middle-small-containers-title">Bruno Mars</p>
+              </div>
+            </div>
+            <div class="middle-small-containers">
+              <img
+                class="middle-small-images"
+                src="spotify_middle_container_images/Most_Epic_Anime_OST.JPG"
+                alt="Most Epic Anime OST"
+              />
+              <div class="middle-small-containers-info">
+                <p class="middle-small-containers-title">Most Epic Anime OST</p>
+              </div>
+            </div>
+          </div>
+        </header>
+        <main class="middle-container-main">
+          <section class="middle-container-made-for">
+            <div class="middle-made-for-top">
+              <div class="middle-made-for-title">
+                <p class="middle-made-for-title-1">Made For</p>
+                <p class="middle-made-for-title-2">Stefan Iacob</p>
+              </div>
+              <p class="middle-made-for-show-all">Show all</p>
+            </div>
+            <div class="middle-made-for-bottom">
+              <div class="middle-made-for-containers">
+                <img
+                  class="middle-made-for-containers-images"
+                  src="spotify_middle_container_images/Big_1_Daily_Mix.JPG"
+                  alt="Daily Mix 1"
+                />
+                <p class="middle-made-for-containers-title-1">
+                  TAEYEON, DAVICHI, V
+                </p>
+                <p class="middle-made-for-containers-title-2">and more</p>
+              </div>
+              <div class="middle-made-for-containers">
+                <img
+                  class="middle-made-for-containers-images"
+                  src="spotify_middle_container_images/Big_2_Daily_Mix.JPG"
+                  alt="Daily Mix 2"
+                />
+                <p class="middle-made-for-containers-title-1">
+                  BTS, TWICE, Coldplay
+                </p>
+                <p class="middle-made-for-containers-title-2">and more</p>
+              </div>
+              <div class="middle-made-for-containers">
+                <img
+                  class="middle-made-for-containers-images"
+                  src="spotify_middle_container_images/Big_3_Daily_Mix.JPG"
+                  alt="Daily Mix 3"
+                />
+                <p class="middle-made-for-containers-title-1">
+                  dave rodgers, Ace,
+                </p>
+                <p class="middle-made-for-containers-title-2">
+                  Hotblade and more
+                </p>
+              </div>
+              <div class="middle-made-for-containers">
+                <img
+                  class="middle-made-for-containers-images"
+                  src="spotify_middle_container_images/Big_4_Daily_Mix.JPG"
+                  alt="Daily Mix 4"
+                />
+                <p class="middle-made-for-containers-title-1">
+                  Disturbed, The HU,
+                </p>
+                <p class="middle-made-for-containers-title-2">
+                  Papa Roach and more
+                </p>
+              </div>
+              <div class="middle-made-for-containers">
+                <img
+                  class="middle-made-for-containers-images"
+                  src="spotify_middle_container_images/Big_5_Daily_Mix.JPG"
+                  alt="Daily Mix 5"
+                />
+                <p class="middle-made-for-containers-title-1">
+                  Sawano Hiroyuki, Yuki
+                </p>
+                <p class="middle-made-for-containers-title-2">
+                  Hayashi, Geek Music...
+                </p>
+              </div>
+              <div class="middle-made-for-containers">
+                <img
+                  class="middle-made-for-containers-images"
+                  src="spotify_middle_container_images/Big_6_Daily_Mix.JPG"
+                  alt="Daily Mix 6"
+                />
+                <p class="middle-made-for-containers-title-1">
+                  Bruno Mars, Lana Del
+                </p>
+                <p class="middle-made-for-containers-title-2">
+                  Rey, Taylor Swift and...
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="middle-container-jump-back-in">
+            <div class="middle-jump-back-in-top">
+              <p class="middle-jump-back-in-title">Jump Back In</p>
+              <p class="middle-jump-back-in-show-all">Show all</p>
+            </div>
+            <div class="middle-jump-back-in-bottom">
+              <div class="middle-jump-back-in-containers">
+                <img
+                  class="middle-jump-back-in-images"
+                  src="spotify_middle_container_images/Big_1_Ultimate_Rock_Gaming.JPG"
+                  alt="Ultimate Rock Gaming"
+                />
+                <p class="middle-jump-back-in-title-2">
+                  Rock out while you <br />game.<br />
+                </p>
+              </div>
+              <div class="middle-jump-back-in-containers">
+                <img
+                  class="middle-jump-back-in-images jony-jump-back-in-image"
+                  src="spotify_middle_container_images/Big_2_JONY.JPG"
+                  alt="JONY"
+                />
+                <p class="middle-jump-back-in-title-1">JONY</p>
+                <p class="middle-jump-back-in-title-2">Artist</p>
+              </div>
+              <div class="middle-jump-back-in-containers">
+                <img
+                  class="middle-jump-back-in-images house-music-jump-back-in-image"
+                  src="spotify_middle_container_images/Big_3_House_Music_HD.JPG"
+                  alt="House Music HD Playlist"
+                />
+                <p class="middle-jump-back-in-title-1">HouseMusicHD</p>
+                <p class="middle-jump-back-in-title-1">Playlist</p>
+                <p class="middle-jump-back-in-title-2">Official Playlist</p>
+              </div>
+              <div class="middle-jump-back-in-containers">
+                <img
+                  class="middle-jump-back-in-images"
+                  src="spotify_middle_container_images/Big_4_Zen_Japanese_Traditional_Mix.JPG"
+                  alt="Zen Japanese Traditional Mix"
+                />
+                <p class="middle-jump-back-in-title-2">
+                  Zen Japanese Traditional <br />
+                  music picked just for you.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="middle-container-saturday-evening">
+            <div class="middle-saturday-evening-top">
+              <p class="middle-saturday-evening-title">
+                Soundtrack your Saturday evening
+              </p>
+              <p class="middle-saturday-evening-show-all">Show all</p>
+            </div>
+            <div class="middle-saturday-evening-bottom">
+              <div class="middle-saturday-evening-containers">
+                <img
+                  class="middle-saturday-evening-containers-images"
+                  src="spotify_middle_container_images/Saturday_Big_1_Daylist.JPG"
+                  alt="Daylist"
+                />
+                <p class="middle-saturday-evening-containers-title">
+                  Here's some rock
+                </p>
+                <p class="middle-saturday-evening-containers-title">
+                  radio, guitar, not a...
+                </p>
+              </div>
+              <div class="middle-saturday-evening-containers">
+                <img
+                  class="middle-saturday-evening-containers-images"
+                  src="spotify_middle_container_images/Saturday_Big_2_Running_HipHop.JPG"
+                  alt="Running HipHop"
+                />
+                <p class="middle-saturday-evening-containers-title">
+                  Running HipHop Mix
+                </p>
+                <p class="middle-saturday-evening-containers-title">
+                  picked just for you
+                </p>
+              </div>
+              <div class="middle-saturday-evening-containers">
+                <img
+                  class="middle-saturday-evening-containers-images"
+                  src="spotify_middle_container_images/Saturday_Big_3_170_BPM.JPG"
+                  alt="170 BPM Mix"
+                />
+                <p class="middle-saturday-evening-containers-title">
+                  Running Workout Mix
+                </p>
+                <p class="middle-saturday-evening-containers-title">
+                  picked just for you
+                </p>
+              </div>
+              <div class="middle-saturday-evening-containers">
+                <img
+                  class="middle-saturday-evening-containers-images"
+                  src="spotify_middle_container_images/Saturday_Big_4_Fun_Road_Trip.JPG"
+                  alt="Fun Road Trip Mix"
+                />
+                <p class="middle-saturday-evening-containers-title">
+                  Fun Road Trip music
+                </p>
+                <p class="middle-saturday-evening-containers-title">
+                  picked just for you
+                </p>
+              </div>
+              <div class="middle-saturday-evening-containers">
+                <img
+                  class="middle-saturday-evening-containers-images"
+                  src="spotify_middle_container_images/Saturday_Big_5_2000s_Road_Trip_Mix.JPG"
+                  alt="2000s Road Trip Mix"
+                />
+                <p class="middle-saturday-evening-containers-title">
+                  Best 2000s Music Mix
+                </p>
+                <p class="middle-saturday-evening-containers-title">
+                  picked just for you
+                </p>
+              </div>
+              <div class="middle-saturday-evening-containers">
+                <img
+                  class="middle-saturday-evening-containers-images"
+                  src="spotify_middle_container_images/Saturday_Big_6_Running_Mix.JPG"
+                  alt="Running Mix"
+                />
+                <p class="middle-saturday-evening-containers-title">
+                  Running Mix
+                </p>
+                <p class="middle-saturday-evening-containers-title">
+                  picked just for you
+                </p>
+              </div>
+            </div>
+          </section>
+          <aside class="spotify-nav-aside">
+            <div class="spotify-nav-aside-left-container">
+              <nav class="spotify-company-nav">
+                <p class="spotify-nav-title">Company</p>
+                <div class="spotify-nav-aside-company">
+                  <p class="nav-about">About</p>
+                  <p class="nav-jobs">Jobs</p>
+                  <p class="nav-record">For the Record</p>
+                </div>
+              </nav>
+              <nav class="spotify-communities-nav">
+                <p class="spotify-nav-title">Communities</p>
+                <div class="spotify-nav-aside-communities">
+                  <p class="nav-artists">For Artists</p>
+                  <p class="nav-developers">Developers</p>
+                  <p class="nav-advertising">Advertising</p>
+                  <p class="nav-investors">Investors</p>
+                  <p class="nav-vendors">Vendors</p>
+                </div>
+              </nav>
+              <nav class="spotify-useful-links-nav">
+                <p class="spotify-nav-title">Useful Links</p>
+                <div class="spotify-nav-aside-useful-links">
+                  <p class="nav-support">Support</p>
+                  <p class="nav-mobile-app">Free Mobile App</p>
+                  <p class="nav-popular">Popular by Country</p>
+                  <p class="nav-import-music">Import your music</p>
+                </div>
+              </nav>
+              <nav class="spotify-plans-nav">
+                <p class="spotify-nav-title">Spotify Plans</p>
+                <div class="spotify-nav-aside-spotify-plans">
+                  <p class="nav-premium-individual">Premium Individual</p>
+                  <p class="nav-premium-duo">Premium Duo</p>
+                  <p class="nav-premium-family">Premium Family</p>
+                  <p class="nav-premium-student">Premium Student</p>
+                  <p class="nav-spotify-free">Spotify Free</p>
+                </div>
+              </nav>
+            </div>
+            <div class="spotify-nav-aside-right-container">
+              <nav class="spotify-social-nav">
+                <button class="social-nav-instagram-button">
+                  <img
+                    class="social-nav-instagram"
+                    src="spotify-aside-icons/instagram_icon.png"
+                    alt="Instagram"
+                  />
+                </button>
+                <button class="social-nav-twitter-button">
+                  <img
+                    class="social-nav-twitter"
+                    src="spotify-aside-icons/twitter_icon.png"
+                    alt="Twitter"
+                  />
+                </button>
+                <button class="social-nav-facebook-button">
+                  <img
+                    class="social-nav-facebook"
+                    src="spotify-aside-icons/facebook_icon.png"
+                    alt="Facebook"
+                  />
+                </button>
+              </nav>
+            </div>
+          </aside>
+          <footer class="spotify-footer">
+            <div class="spotify-footer-left">
+              <p class="footer-legal">Legal</p>
+              <p class="footer-safety">Safety & Privacy Center</p>
+              <p class="footer-privacy">Privacy Policy</p>
+              <p class="footer-cookie">Cookie Setting</p>
+              <p class="footer-ads">About Ads</p>
+              <p class="footer-accessibility">Accessibility</p>
+            </div>
+            <div class="spotify-footer-right">
+              <p>&#169; 2025 Spotify AB</p>
+            </div>
+          </footer>
+        </main>
+      </div>
+
+      <div class="spotify-right-container">
+        <header class="right-container-header">
+          <p class="right-header-title">ICARUS (Orchestral Version)</p>
+        </header>
+        <img
+          class="right-container-background-image"
+          src="spotify_right_container_images/ICARUS_image.JPG"
+          alt="ICARUS song image"
+        />
+        <div class="right-container-main">
+          <section class="right-container-title">
+            <div class="right-container-title-info">
+              <p class="right-song-title-1">ICARUS - Orchestral Version</p>
+              <p class="right-song-title-2">
+                <span class="Tony-Ann-title">Tony Ann</span>,
+                <span class="ARKAI-title">ARKAI</span>
+              </p>
+            </div>
+            <img
+              class="right-title-add-icon"
+              src="spotify_right_container_images/add_icon_white.svg"
+              alt="Add"
+            />
+          </section>
+          <section class="right-container-author">
+            <img
+              class="right-author-image"
+              src="spotify_right_container_images/ICARUS_author_image.JPG"
+              alt="Tony Ann image"
+            />
+            <div class="right-author-info-container">
+              <p class="right-author-title">Tony Ann</p>
+              <div class="right-author-followers-and-follow">
+                <p class="right-author-followers">
+                  1,226,144 monthly listeners
+                </p>
+                <button class="right-author-follow-button">Follow</button>
+              </div>
+              <p class="right-author-description">
+                Tony Ann is a virtuoso solo pianist who seamlessly blends
+                contemporary and classical styles. A harmony connoisseur, he
+                pushes the boundaries of neoclassical and popular music,
+                creating emotional...
+              </p>
+            </div>
+          </section>
+          <section class="right-container-credits">
+            <div class="right-credits-title-container">
+              <p class="right-credits-title">Credits</p>
+              <p class="right-credits-title-show-all">Show all</p>
+            </div>
+            <div class="right-credits-authors-container">
+              <div class="right-credits-author-1">
+                <div class="right-credits-author-1-title">
+                  <p class="right-credits-author-1-title-1">Tony Ann</p>
+                  <p class="right-credits-author-1-title-2">
+                    Main Artist, Composer, Producer
+                  </p>
+                </div>
+                <button class="right-credits-follow-button">Follow</button>
+              </div>
+              <div class="right-credits-author-2">
+                <div class="right-credits-author-2-title">
+                  <p class="right-credits-author-2-title-1">ARKAI</p>
+                  <p class="right-credits-author-2-title-2">
+                    Main Artist, Producer
+                  </p>
+                </div>
+                <button class="right-credits-follow-button">Follow</button>
+              </div>
+            </div>
+          </section>
+
+          <section class="right-container-on-tour">
+            <div class="right-on-tour-title-container">
+              <p class="right-on-tour-title">On Tour</p>
+              <p class="right-on-tour-show-all">Show all</p>
+            </div>
+            <div class="right-on-tour-event-1">
+              <img
+                class="right-on-tour-event-image"
+                src="spotify_right_container_images/Sep_9.JPG"
+                alt="9 Sept Event"
+              />
+              <div class="right-on-tour-event-info">
+                <p class="right-on-tour-event-title-1">Del Mar</p>
+                <p class="right-on-tour-event-title-2">Tony Ann</p>
+                <p class="right-on-tour-event-title-3">
+                  Thu 8:00 PM &#183; The Sound
+                </p>
+              </div>
+            </div>
+            <div class="right-on-tour-event-2">
+              <img
+                class="right-on-tour-event-image"
+                src="spotify_right_container_images/Sep_11.JPG"
+                alt="11 Sept Event"
+              />
+              <div class="right-on-tour-event-info">
+                <p class="right-on-tour-event-title-1">Seoul</p>
+                <p class="right-on-tour-event-title-2">Tony Ann</p>
+                <p class="right-on-tour-event-title-3">
+                  Sat 7:30 PM &#183; Sky Art Hall
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section class="right-container-next-in-queue">
+            <div class="right-next-in-queue-title-container">
+              <p class="right-next-in-queue-title">Next in Queue</p>
+              <p class="right-next-in-queue-open-queue">Open queue</p>
+            </div>
+            <div class="right-next-in-queue-next-song">
+              <img
+                class="right-next-in-queue-song-image"
+                src="spotify_right_container_images/ICARUS_image.JPG"
+                alt="ICARUS Song Image"
+              />
+              <div class="right-next-in-queue-song-info">
+                <p class="right-next-in-queue-song-title-1">ICARUS</p>
+                <p class="right-next-in-queue-song-title-2">Tony Ann</p>
+              </div>
+              <img
+                class="right-next-in-queue-play-icon"
+                src="spotify_right_container_images/Play_icon.svg"
+                alt="Play Song"
+              />
+              <img
+                class="right-next-in-queue-three-points-icon"
+                src="spotify_right_container_images/three_points_icon.svg"
+                alt="Song Options"
+              />
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!--SPOTIFY MUSIC PLAYER-->
+    <aside class="spotify-player">
+      <div class="spotify-player-left-container">
+        <img
+          class="player-song-image"
+          src="spotify_right_container_images/ICARUS_image.JPG"
+          alt="Song Image"
+        />
+        <div class="player-song-info">
+          <p class="player-song-name">ICARUS - Orchestral Version</p>
+          <p class="player-song-author">
+            <span class="player-Tony-Ann">Tony Ann</span>,
+            <span class="player-ARKAI">ARKAI</span>
+          </p>
+        </div>
+        <img
+          class="spotify-add-icon"
+          src="spotify_icons/spotify_add_icon.png"
+          alt="Add Song"
+        />
+      </div>
+
+      <div class="spotify-player-middle-container">
+        <div class="spotify-player-middle-container-top">
+          <img
+            class="player-shuffle"
+            src="spotify_music_player_icons/shuffle_icon.svg"
+            alt="Shuffle Playlist Songs"
+          />
+          <img
+            class="player-previous-song"
+            src="spotify_music_player_icons/play_previous_song_icon.svg"
+            alt="Play Previous Song"
+          />
+          <img
+            class="player-play"
+            src="spotify_music_player_icons/player_play_icon.svg"
+            alt="Play Song"
+          />
+          <img
+            class="player-next-song"
+            src="spotify_music_player_icons/play_next_song_icon.svg"
+            alt="Play Next Song"
+          />
+          <img
+            class="player-repeat"
+            src="spotify_music_player_icons/repeat_icon.svg"
+            alt="Enable Repeat"
+          />
+        </div>
+        <div class="player-bar-container">
+          <img
+            class="player-bar"
+            src="spotify_music_player_icons/player_bar_icon.JPG"
+            alt="Player Bar"
+          />
+        </div>
+      </div>
+
+      <div class="spotify-player-right-container">
+        <div class="player-playing-view-container">
+          <img
+            class="player-playing-view"
+            src="spotify_music_player_icons/play_sqare_icon.svg"
+            alt="Now Playing View"
+          />
+        </div>
+        <img
+          class="player-microphone"
+          src="spotify_music_player_icons/microphone_icon.svg"
+          alt="Microphone"
+        />
+        <img
+          class="player-queue"
+          src="spotify_music_player_icons/queue_icon.svg"
+          alt="Player Queue"
+        />
+        <img
+          class="player-device"
+          src="spotify_music_player_icons/computer_icon.svg"
+          alt="Connect to a Device"
+        />
+        <div class="player-volume-container">
+          <img
+            class="player-volume"
+            src="spotify_music_player_icons/volume_icon.svg"
+            alt="Player Volume Option"
+          />
+          <div class="player-volume-bar"></div>
+        </div>
+        <img
+          class="player-full-screen"
+          src="spotify_music_player_icons/enter_full_screen_icon.svg"
+          alt="Enter Full Screen Option"
+        />
+      </div>
+    </aside>
+  </body>
+</html>
